@@ -100,7 +100,7 @@ body {
   text-shadow: 0 0 10px #FFFFFF, 0 0 20px #FFFFFF;
 }
 
-/* Estilo do campo de senha */
+/* Password Field */
 .password-container input {
   padding: 15px;
   margin-top: 10px;
@@ -115,13 +115,13 @@ body {
 }
 
 .password-container input:focus {
-  border-color: #FF00FF;
+  border-color: #CCCCCC;
   background-color: #111;
   outline: none;
-  box-shadow: 0 0 15px rgba(255, 0, 255, 0.8);
+  box-shadow: 0 0 15px rgba(204, 204, 204, 0.8);
 }
 
-/* Botão de desbloqueio */
+/* Unlock Button */
 .password-container button {
   margin-top: 20px;
   padding: 15px;
@@ -137,21 +137,21 @@ body {
 }
 
 .password-container button:hover {
-  background-color: #FF00FF;
+  background-color: #CCCCCC;
   transform: translateY(-2px);
-  box-shadow: 0 0 20px rgba(255, 0, 255, 0.9);
+  box-shadow: 0 0 20px rgba(204, 204, 204, 0.9);
 }
 
 .password-container button:active {
   transform: translateY(1px);
 }
 
-/* Mensagem de erro */
+/* Error Message */
 .error-message {
-  color: #FF00FF;
+  color: #CCCCCC;
   margin-top: 10px;
   font-size: 14px;
-  text-shadow: 0 0 5px rgba(255, 0, 255, 0.7);
+  text-shadow: 0 0 5px rgba(204, 204, 204, 0.7);
 }
 
 /* Image Gallery */
@@ -202,9 +202,8 @@ body {
 .gallery-images img:hover {
   transform: scale(1.1) rotate(5deg);
   opacity: 1;
-  border-color: #FFFFFF;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.9);
-  transition: all 0.3s ease;
+  border-color: #CCCCCC;
+  box-shadow: 0 0 30px rgba(204, 204, 204, 0.9);
 }
 
 /* Video Tooltip */
@@ -229,9 +228,9 @@ body {
 }
 
 .video-tooltip button:hover {
-  background-color: #FF00FF;
+  background-color: #CCCCCC;
   transform: translateY(-2px);
-  box-shadow: 0 0 20px rgba(255, 0, 255, 0.9);
+  box-shadow: 0 0 20px rgba(204, 204, 204, 0.9);
 }
 
 /* Video Popup */
@@ -261,17 +260,17 @@ body {
   position: absolute;
   top: -10px;
   right: -10px;
-  color: #FF00FF;
+  color: #CCCCCC;
   font-size: 30px;
   cursor: pointer;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.8);
   padding: 5px;
-  box-shadow: 0 0 10px rgba(255, 0, 255, 0.9);
+  box-shadow: 0 0 10px rgba(204, 204, 204, 0.9);
 }
 
 .close-btn:hover {
-  background-color: #FF00FF;
+  background-color: #CCCCCC;
   color: #fff;
   transform: scale(1.1);
 }
